@@ -1,0 +1,15 @@
+<BrowserRouter>
+    
+    <Routes> 
+        <Route path="Navbar/">
+        <Route path='/'  element={<News />}/>
+         <Route path='/Business'  element={<News category="Business"/>}></Route>
+         <Route path='/Entertainment'  element={<News category="Entertainment"/>}></Route>
+         <Route path='/Generalhealth'  element={<News category="Generalhealth"/>}></Route>
+         <Route path='/Science'  element={<News category="Science"/>}></Route>
+         <Route path='/Sports'  element={<News category="Sports"/>}></Route>
+         <Route path='/Technology'  element={<News category="Technology"/>}></Route>
+         </RoutesRoute>
+    </Routes> 
+           
+            </BrowserRouter>
